@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:skounis.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:skounis.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:skounis.github.io",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "42bfda0315593f87cd84fdae041e33c45307a5155974fc30ce727993b69633c3",
+          "y": "ad6fb2ba9bc7285f7f185c12a995577d1f145daae510dfbc46d2960c5434b750"
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:skounis.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:skounis.github.io#owner"
+    ]
+}
